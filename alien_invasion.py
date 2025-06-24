@@ -43,9 +43,9 @@ class AlienInvasion:
         self.settings = Settings()
 
         # Создается окно, размером 1200 на 800
-        # Объект окна присваивается артибуту self.screen, что позволяет-
+        # Объект окна присваивается атрибуту self.screen, что позволяет-
         # -работать с ним во всех классах
-        # Используем артибуты объекта self.settings:
+        # используем артибуты объекта self.settings:
         self.screen = pygame.display.set_mode(
             (self.settings.screen_width, self.settings.screen_height))
 

@@ -5,7 +5,7 @@ class Pirate(Sprite):
     """Класс, представляющий одного пирата"""
 
     def __init__(self, ai_game):
-        """Инициаллизирует пирата и задает его начальную позицию"""
+        """Инициализирует пирата и задает его начальную позицию"""
         super().__init__()
         self.screen = ai_game.screen
         self.settings = ai_game.settings
