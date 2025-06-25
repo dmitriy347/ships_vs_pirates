@@ -32,7 +32,7 @@ class Settings():
 
 
     def initialize_dynamic_settings_easy(self):
-        """Инициализирует настройки easy, изменяющиеся в ходе игры"""
+        """Инициализирует настройки easy, изменяющиеся в ходе игры."""
         self.ship_speed_factor = 0.5
         self.bullet_speed_factor = 0.5
         self.pirate_speed_factor = 0.2
@@ -45,7 +45,7 @@ class Settings():
 
 
     def initialize_dynamic_settings_medium(self):
-        """Инициализирует настройки medium, изменяющиеся в ходе игры"""
+        """Инициализирует настройки medium, изменяющиеся в ходе игры."""
         self.ship_speed_factor = 0.6
         self.bullet_speed_factor = 0.6
         self.pirate_speed_factor = 0.2
