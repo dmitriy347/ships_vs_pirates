@@ -21,7 +21,7 @@ class Settings():
         self.fleet_drop_speed = 10
 
         # Темп ускорения игры
-        self.speedup_scale = 1.04
+        self.speedup_scale = 1.05
 
         # Темп роста стоимости пиратов
         self.score_scale = 1.5
