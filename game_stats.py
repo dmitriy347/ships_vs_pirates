@@ -16,7 +16,7 @@ class GameStats():
         """Читает значение из файла"""
         try:
             with open('record.txt') as file_object:
-                # Преобразуем строчнное значение файла str() 
+                # Преобразуем строчное значение файла str()
                 # в целое число int()
                 return int(file_object.read())
                 
