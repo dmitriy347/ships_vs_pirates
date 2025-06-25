@@ -2,7 +2,7 @@ class Settings():
     """Класс для хранения всех настроек игры Alien Invasion."""
 
     def __init__(self):
-        """Инициализирует настройки игры"""
+        """Инициализирует настройки игры."""
         # Параметры экрана.
         self.screen_width = 1200
         self.screen_height = 800
@@ -58,7 +58,7 @@ class Settings():
 
 
     def initialize_dynamic_settings_hard(self):
-        """Инициализирует настройки hard, изменяющиеся в ходе игры"""
+        """Инициализирует настройки hard, изменяющиеся в ходе игры."""
 
         self.ship_speed_factor = 0.7
         self.bullet_speed_factor = 0.7
@@ -72,7 +72,7 @@ class Settings():
 
 
     def increase_speed(self):
-        """Увеличивает настройки скорости и стоимости пиратов"""
+        """Увеличивает настройки скорости и стоимости пиратов."""
         self.ship_speed_factor *= self.speedup_scale
         self.bullet_speed_factor *= self.speedup_scale
         self.pirate_speed_factor *= self.speedup_scale
