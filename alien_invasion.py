@@ -27,8 +27,6 @@ from bullet import Bullet
 
 from pirate import Pirate
 
-from random import randint
-
 from audio import Audio
 
 class AlienInvasion:
@@ -36,7 +34,7 @@ class AlienInvasion:
 
     def __init__(self):
         """Инициализирует игру и создает игровые ресурсы."""
-        # Функция pygame.init() инициализирует настроки, необходимые для работы
+        # Функция pygame.init() инициализирует настройки, необходимые для работы
         pygame.init()
 
         # Создаем экземпляр Settings и сохраняем его в self.settings 
@@ -45,7 +43,7 @@ class AlienInvasion:
         # Создается окно, размером 1200 на 800
         # Объект окна присваивается атрибуту self.screen, что позволяет-
         # -работать с ним во всех классах
-        # используем артибуты объекта self.settings:
+        # используем атрибуты объекта self.settings:
         self.screen = pygame.display.set_mode(
             (self.settings.screen_width, self.settings.screen_height))
 
@@ -235,7 +233,7 @@ class AlienInvasion:
 
     def _check_bullet_pirate_collisions(self):
         """Обработка коллизий снарядов с пиратами"""
-        # Удаление снарядов и пиратов, участующих в коллизиях 
+        # Удаление снарядов и пиратов, участвующих в коллизиях
         collisions = pygame.sprite.groupcollide(
             self.bullets, self.pirates, True, True)            
 
